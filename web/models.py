@@ -30,3 +30,4 @@ class Rate(models.Model):
     rate = models.IntegerField()
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     request = models.ForeignKey(Request, on_delete=models.CASCADE)
+
